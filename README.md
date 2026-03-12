@@ -9,7 +9,7 @@ A full-stack MERN application where users log nature session experiences and get
 | Frontend | React 19, Vite |
 | Backend | Node.js, Express.js |
 | Database | MongoDB, Mongoose |
-| AI | Google Gemini 1.5 Flash |
+| AI | Google Gemini 2.5 Flash |
 | Caching | node-cache (in-memory) |
 | Rate Limiting | express-rate-limit |
 

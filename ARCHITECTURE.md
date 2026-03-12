@@ -10,7 +10,7 @@
                                      │
                               ┌──────▼───────┐
                               │ Google Gemini│
-                              │  (1.5 Flash) │
+                              │  (2.5 Flash) │
                               └──────────────┘
 ```
 
@@ -48,7 +48,7 @@
 
 3. **Prompt Optimization** — Keep prompts minimal. Current prompt is ~80 tokens. Use `responseMimeType: "application/json"` (already implemented) to avoid wasted tokens on formatting
 
-4. **Model Selection** — Use `gemini-1.5-flash` (already chosen) which is the most cost-effective model. Fall back to cheaper models for simpler texts
+4. **Model Selection** — Use `gemini-2.5-flash` (already chosen) which is the most cost-effective model. Fall back to cheaper models for simpler texts
 
 5. **Deduplication** — Normalize text (lowercase, trim whitespace) before hashing to maximize cache hits for semantically identical inputs
 
