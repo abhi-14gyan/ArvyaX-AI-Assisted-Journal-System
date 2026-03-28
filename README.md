@@ -2,6 +2,9 @@
 
 A full-stack MERN application where users log nature session experiences and get AI-powered analysis using Google Gemini.
 
+**🌐 Live Demo:** [Frontend (Vercel)](https://arvya-x-ai-assisted-journal-system.vercel.app/)  
+**⚙️ API Base URL:** [Backend (Render)](https://arvyax-journal-api.onrender.com)
+
 ## Tech Stack
 
 | Layer | Technology |
